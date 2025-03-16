@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 
 
-API_KEY = "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"  
+API_KEY = "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"  
 API_URL = "https://api-inference.huggingface.co/models/facebook/bart-large-cnn"
 
 @app.route('/summarize', methods=['POST'])
